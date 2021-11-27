@@ -1,0 +1,19 @@
+MDBoxLayout:
+    orientation: "vertical"
+
+    MDToolbar:
+        title: "SysInfo"
+        left_action_items: [["menu", lambda x: app.test(x)]]
+        id: bar
+        halign:"center"
+    
+
+    MDLabel:
+        markup: True
+        font_size: '11sp'
+        text: 't'
+        halign: "center"
+        id: content
+    
+    MDLabel:
+        text: 'test'

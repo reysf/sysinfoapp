@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kivymd = "*"
+matplotlib = "*"
+googlesearch-python = "*"
+wikipedia = "*"
+bing-images = "*"
+psutil = "*"
+kivmob = "*"
+buildozer = "*"
+Cython = "*"
+Kivy = "==2.0.0"
+toddy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
